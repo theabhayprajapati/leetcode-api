@@ -1,8 +1,8 @@
 // make a server with express
 import express from 'express';
-import leetcode from './api/leetcode.js';
+// import leetcode from './api/leetcode.js';
 const app = express();
-app.use('/leetcode', leetcode);
+// app.use('/leetcode', leetcode);
 const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
     res.json({
